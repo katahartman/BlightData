@@ -30,7 +30,11 @@ function drawBars(d){
     .data(violationData) //is this set up right?
     .enter()
     .append("div")
-    .attr("class", "bar");
+    .attr("class", "bar")
+    .style("height", function(d){
+      var barHeight = d *5;
+      return barHeight + "px";
+    });
 
 };
 
