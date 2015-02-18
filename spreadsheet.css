@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+}
+
+
+
+div.bar{
+  display: inline-block;
+  width: 20px;
+  height: 75px;
+  background-color: teal;
+  margin-right: 10px;
+}
+
